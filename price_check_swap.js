@@ -1,6 +1,7 @@
 const uniABI = require(".IUniswapV2Pair.json");
 const getBig = require("big.js");
 const wssSetup = require("./wss_setup");
+const ethers = require('ethers');
 
 
 //insert the name of the swap EX: WETH/USDC
