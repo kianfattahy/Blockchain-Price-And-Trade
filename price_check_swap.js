@@ -34,11 +34,11 @@ const main = async () => {
     //keep getting the price at given instance
     while (true) {
         //call getReserves
-        const [amtToken0, amtToken1] = await getReserves(HTTP);
+        const [firstToken, secondToken] = await getReserves(HTTP);
 
         //display price at instant
         console.log(
-            `Price ${swapID} : ${amtToken0.div(amtToken1).toString()}`
+            `Price ${swapID} : ${firstToken.div(secondToken).toString()}`
         );
 
         //decide how long to wait before retrieving and updating the price
