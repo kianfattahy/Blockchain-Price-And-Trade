@@ -42,7 +42,7 @@ const main = async () => {
         );
 
         //decide how long to wait before retrieving and updating the price
-        await sleep(INTERVAL);
+        await sleep(5000);
     }
 };
 
