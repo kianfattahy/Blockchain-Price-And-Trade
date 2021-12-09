@@ -10,7 +10,7 @@ const address = "";
 
 
 //web3 contract 
-const WSS = new wssSetup.web3ws.eth.Contract(
+const WSS = new wssSetup.web3WSS.eth.Contract(
     uniABI.abi,
     address
 );
