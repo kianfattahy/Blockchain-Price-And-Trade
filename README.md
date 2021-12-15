@@ -6,7 +6,7 @@ After a while of using cryptocurrencies and DeFi tools through traditional inter
 # View Prices
 This bot is highly customizable, as it can be altered for a multitude of chains, decentralized exchanges, and token pairs. In order to do so, various APIs from providers such as Infura or Ankr are necessary to interact with a given blockchain. 
 
-First, the HTTP address of the designated API must be inputted into the apprpriate field in the .env file. For example, if the user decides to use an Ethereum Mainnet API from Infura, then the WSS address of that specific API must be used in order to view information about pairs on Uniswap that are on the Ethereum blockchain.
+First, the HTTP address of the designated API must be inputted into the apprpriate field in the .env file. For example, if the user decides to use an Ethereum Mainnet API from Infura, then the HTTP address of that specific API must be used in order to view information about pairs on Uniswap that are on the Ethereum blockchain.
 
 Next, the pair address of the tokens of interest must be inputted into the appropriate field in the index.js file. This pair address is unique to both the token pair and the decentralized exchange on which their liquidity pool exists. Thus, the pair address of wETH/USDC needs to be appropriate for Uniswap if the user wants to view what the price of the token pair is on Uniswap.
 
