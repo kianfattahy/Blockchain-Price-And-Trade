@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Blockchain Trading Bot is a powerful tool designed to interface directly with various blockchains and decentralized exchanges. Born out of a desire to automate and streamline interactions with liquidity pools, this bot bypasses traditional interfaces and provides a direct gateway to the blockchain using JavaScript.
+The Blockchain Trading Bot is a powerful tool designed to interface directly with various blockchains and decentralized exchanges, bypassing traditional interfaces and providing a direct gateway to the blockchain using JavaScript.
 
 ![Liquidity Pool Interface](https://user-images.githubusercontent.com/94335877/145323880-29d34804-eef9-470e-afd0-ded8d8e2a977.png)
 
